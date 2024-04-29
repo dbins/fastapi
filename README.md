@@ -108,6 +108,11 @@ Para encerrar a execução do container:
 ```
 docker-compose down
 ```
+
+![Tela API](tela1_api.jpg)
+
+![Tela API](tela2_api.jpg)
+
 No Docker foi instalado além do banco de dados Postgres a imagem  do PgAdmin. Ela permite que você conecte no banco de dados Postgres utilizando uma interface web.
 AO USAR O PGADMIN NO DOCKER, O HOST DEVE SER DB, este é o nome do serviço no arquivo Docker
 
