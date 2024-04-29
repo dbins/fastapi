@@ -58,7 +58,7 @@ pyenv-win-venv activate workoutapi (!importante_
 pip install fastapi uvicorn sqlalchemy pydantic alembic asyncpg	pydantic-settings fastapi-pagination
 ```
 
-## rodar o projeto
+## Rodar o projeto
 
 No terminal dentro do VScode, foi utilizado o seguinte comando
 
@@ -76,7 +76,7 @@ Observação. O comando "make run" não funcionou no Windows. Seguir este passo 
 https://medium.com/@samsorrahman/how-to-run-a-makefile-in-windows-b4d115d7c516
 
 
-## depois de instalar o alembic
+## Depois de instalar o alembic
 
 ```
 alembic init alembic
@@ -84,8 +84,6 @@ pip freeze > requirements.txt
 
 alterar o arquivo alembic.ini
 para criar as migrations:
-
-```
 alembic revision --autogenerate -m "init-db"
 ```
 
